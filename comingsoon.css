@@ -1,0 +1,27 @@
+
+body {
+    background-color: #DECDF5;
+}
+h1 {
+    text-align: center;
+    color: #27232E
+}
+p {
+    text-align: center;
+    color: #27232E;
+}
+.comingsoon {
+    background-color: #80CFA9;
+    padding: 50px;
+    border-radius: 5px;
+    margin: auto;
+    width:fit-content;
+    position: relative; 
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}

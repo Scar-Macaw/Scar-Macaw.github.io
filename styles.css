@@ -19,7 +19,8 @@ p {
     margin: auto;
     width:fit-content;
     position: relative; 
-    box-shadow: 10px 10px;
+    -webkit-box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 8px 3px rgba(0,0,0,0.44);
 }
 .center {
     position: absolute;

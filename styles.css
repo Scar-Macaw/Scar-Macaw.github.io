@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body {
     background-color: #DECDF5;
-    font-family: 'Righteous', cursive;
 }
 h1 {
     text-align: center;
-    color: #27232E
+    color: #27232E;
+    font-family: 'Righteous', cursive;
 }
 p {
     text-align: center;
     color: #27232E;
+    font-family: 'Righteous', cursive;
 }
 .container {
     background-color: #80CFA9;

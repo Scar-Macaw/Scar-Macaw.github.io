@@ -2,13 +2,7 @@
 body {
     background-color: #CAC4CE;
 }
-h1 {
-    text-align: center;
-    color: #242038;
-    font-family: 'Righteous', cursive;
-    overflow-wrap: anywhere;
-}
-p {
+h1, p {
     text-align: center;
     color: #242038;
     font-family: 'Righteous', cursive;
@@ -33,24 +27,21 @@ p {
     transform: translate(-50%, -50%);
     padding: 10px;
 }
-.layout {
-  width: 1366px;
-  height: 768px;
-
-  display: grid;
-  grid:
-    "header header header" auto
-    "leftSide body body" 1fr
-    "footer footer footer" auto
-    / auto 1fr auto;
-  gap: 8px;
+.navbar {
+  position: fixed;
+  width: 99%;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #242038;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.header {
-  grid-area: header; }
-.leftSide { 
-  grid-area: leftSide; }
-.body {
-  grid-area: body; }
-.footer { 
-  grid-area: footer; }
+.navbar a:hover {
+  background: #4D2D76;
+  color: #242038;
+}

@@ -93,3 +93,6 @@ h1, p {
   background: #4D2D76;
   color: #07080D;
 }
+#right {
+  float: right;
+}
